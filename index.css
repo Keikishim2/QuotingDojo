@@ -1,0 +1,62 @@
+body {
+  background-image: url('bg.gif');
+  background-size: contain;
+}
+#wrapper {
+  border-radius: 76px;
+  background-image: url('red.gif');
+  background-color: darkred;
+  background-size: contain;
+  color: gold;
+  height: 500px;
+  width: 600px;
+  margin-left: 700px;
+  margin-top: 20px;
+  box-shadow: 10px 10px gold;
+}
+form,
+h1 {
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  font-size: xx-large;
+}
+h1 {
+  font-size: 30px;
+}
+input {
+  border-radius: 10px;
+  height: 30px;
+  background-image: url('text.gif');
+}
+textarea {
+  border-radius: 10px;
+  margin-bottom: -10px;
+  background-image: url('text.gif');
+}
+#skip {
+  padding-top: 10px;
+  float: left;
+  margin-top: 46px;
+  margin-left: 80px;
+  text-decoration: none;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #600707, #510606);
+  box-shadow: 11px 11px 15px #240303, -11px -11px 15px darkred;
+  color: yellow;
+  height: 50px;
+  width: 200px;
+}
+#quote {
+  float: right;
+  padding-top: 10px;
+  margin-top: 75px;
+  margin-right: 70px;
+  text-decoration: none;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #600707, #510606);
+  box-shadow: 11px 11px 15px #240303, -11px -11px 15px darkred;
+  color: yellow;
+  height: 50px;
+  width: 200px;
+}
